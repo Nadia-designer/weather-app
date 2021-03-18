@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--HEAD-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+
+    <!--BODY-->
+<body>
+    <!--container-->
+<div class="container" style="background-image: url(./img/background-img.png);">
+    <!--Form-->
+<form >
+    <div class="search-bar">
+    <input id="city-input" type="search" placeholder="Enter City">
+    <img class="icon" src="./icon/search-icon.svg" >
+</div>
+</form>
+
+    <!--City & Weather-->
+    <h1 id="city">Riyadh</h1>
+    <!--Tempreature-->
+<div class="temp">
+    <div id="current">20</div>
+    <span class="dot"></span>
+</div>
+
+    <!--Info-->
+<div class="info">
+        <div class="D">Details</div>
+        <div class="triangle"></div>
+        <div class="H">Humidity</div>
+        <div class="P">Pressure</div>
+        <div class="W">Wind</div>
+</div>
+
+    <!--lines -->
+    <hr class="detail_line">
+    <hr class="humidity_line">
+    <hr class="pressure_line">
+    <!--traingle of deatils-->
+    
+
+    <!--icons -->
+<div class="icons">
+    <img class="humidity_icon" src="./icon/humidity-icon.svg">
+    <img class="pressure_icon" src="./icon/pressure-icon.svg">
+    <img class="wind_icon" src="./icon/wind-icon.svg">
+</div>
+
+    <!--info2-->
+<div class="info2">
+    <div class="h2">93%</div>
+    <div class="p2">991 hPa</div>
+    <div class="w2">2.1 m/s</div>
+<div>
+    <script src="app.js"></script>
+</div>
+    
+</div>
+</div>       
+</body>
+</html>
